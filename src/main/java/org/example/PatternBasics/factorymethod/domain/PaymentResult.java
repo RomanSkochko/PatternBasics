@@ -1,4 +1,4 @@
-package org.example.PatternBasics.factory_method.domain;
+package org.example.PatternBasics.factorymethod.domain;
 
 import lombok.Builder;
 

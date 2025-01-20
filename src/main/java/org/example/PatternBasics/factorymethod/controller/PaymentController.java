@@ -1,11 +1,11 @@
-package org.example.PatternBasics.factory_method.controller;
+package org.example.PatternBasics.factorymethod.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.example.PatternBasics.factory_method.domain.PaymentRequest;
-import org.example.PatternBasics.factory_method.domain.PaymentResult;
-import org.example.PatternBasics.factory_method.domain.enums.PaymentMethod;
-import org.example.PatternBasics.factory_method.domain.enums.PaymentStatus;
-import org.example.PatternBasics.factory_method.service.PaymentService;
+import org.example.PatternBasics.factorymethod.domain.PaymentRequest;
+import org.example.PatternBasics.factorymethod.domain.PaymentResult;
+import org.example.PatternBasics.factorymethod.domain.enums.PaymentMethod;
+import org.example.PatternBasics.factorymethod.domain.enums.PaymentStatus;
+import org.example.PatternBasics.factorymethod.service.PaymentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

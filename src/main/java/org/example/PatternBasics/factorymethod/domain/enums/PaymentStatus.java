@@ -1,4 +1,4 @@
-package org.example.PatternBasics.factory_method.domain.enums;
+package org.example.PatternBasics.factorymethod.domain.enums;
 
 public enum PaymentStatus {
     PENDING,

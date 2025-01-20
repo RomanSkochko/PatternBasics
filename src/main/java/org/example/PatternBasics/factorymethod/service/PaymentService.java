@@ -1,12 +1,12 @@
-package org.example.PatternBasics.factory_method.service;
+package org.example.PatternBasics.factorymethod.service;
 
 import lombok.RequiredArgsConstructor;
-import org.example.PatternBasics.factory_method.domain.PaymentRequest;
-import org.example.PatternBasics.factory_method.domain.PaymentResult;
-import org.example.PatternBasics.factory_method.domain.enums.PaymentMethod;
-import org.example.PatternBasics.factory_method.domain.enums.PaymentStatus;
-import org.example.PatternBasics.factory_method.processor.PaymentProcessor;
-import org.example.PatternBasics.factory_method.processor.PaymentProcessorFactory;
+import org.example.PatternBasics.factorymethod.domain.PaymentRequest;
+import org.example.PatternBasics.factorymethod.domain.PaymentResult;
+import org.example.PatternBasics.factorymethod.domain.enums.PaymentMethod;
+import org.example.PatternBasics.factorymethod.domain.enums.PaymentStatus;
+import org.example.PatternBasics.factorymethod.processor.PaymentProcessor;
+import org.example.PatternBasics.factorymethod.processor.PaymentProcessorFactory;
 import org.springframework.stereotype.Service;
 
 /**

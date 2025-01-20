@@ -1,9 +1,9 @@
-package org.example.PatternBasics.factory_method.processor;
+package org.example.PatternBasics.factorymethod.processor;
 
-import org.example.PatternBasics.factory_method.domain.PaymentRequest;
-import org.example.PatternBasics.factory_method.domain.PaymentResult;
-import org.example.PatternBasics.factory_method.domain.enums.PaymentMethod;
-import org.example.PatternBasics.factory_method.domain.enums.PaymentStatus;
+import org.example.PatternBasics.factorymethod.domain.PaymentRequest;
+import org.example.PatternBasics.factorymethod.domain.PaymentResult;
+import org.example.PatternBasics.factorymethod.domain.enums.PaymentMethod;
+import org.example.PatternBasics.factorymethod.domain.enums.PaymentStatus;
 import org.springframework.stereotype.Service;
 
 /**

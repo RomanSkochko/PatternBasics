@@ -1,6 +1,6 @@
-package org.example.PatternBasics.factory_method.processor;
+package org.example.PatternBasics.factorymethod.processor;
 
-import org.example.PatternBasics.factory_method.domain.enums.PaymentMethod;
+import org.example.PatternBasics.factorymethod.domain.enums.PaymentMethod;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
