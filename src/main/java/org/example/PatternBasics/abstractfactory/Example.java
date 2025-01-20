@@ -1,30 +1,31 @@
 package org.example.PatternBasics.abstractfactory;
 
 import org.example.PatternBasics.abstractfactory.client.DatabaseClient;
+import org.example.PatternBasics.abstractfactory.config.DatabaseConfig;
 import org.example.PatternBasics.abstractfactory.factory.DatabaseFactory;
-import org.example.PatternBasics.abstractfactory.factory.MySQLFactory;
-import org.example.PatternBasics.abstractfactory.factory.PostgresFactory;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * Demonstrates Abstract Factory usage:
+ * Demonstrates Abstract Factory usage with Spring:
  * Shows how different database implementations (PostgreSQL/MySQL)
- * can be created and used through the same interface,
- * while concrete factories handle specific implementation details.
+ * can be dynamically created and used through the same interface,
+ * while the factory is provided by Spring's dependency injection
+ * based on the configured database type.
  */
 public class Example {
     public void example() {
-        // Create PostgreSQL factory and client
-        // All PostgreSQL-specific implementations (Connection, Command, Transaction)
-        // will be created automatically through the factory
-        DatabaseFactory postgresFactory = new PostgresFactory();
-        DatabaseClient postgresClient = new DatabaseClient(postgresFactory);
-        postgresClient.executeQuery("SELECT id, username, email FROM users");
+        // Initialize Spring application context
+        try (var context = new AnnotationConfigApplicationContext(DatabaseConfig.class)) {
+            // Retrieve the factory bean configured in DatabaseConfig
+            DatabaseFactory factory = context.getBean(DatabaseFactory.class);
 
-        // Create MySQL factory and client
-        // All MySQL-specific implementations (Connection, Command, Transaction)
-        // will be created automatically through the factory
-        DatabaseFactory mysqlFactory = new MySQLFactory();
-        DatabaseClient mysqlClient = new DatabaseClient(mysqlFactory);
-        mysqlClient.executeQuery("SELECT id, username, email FROM users");
+            // Create a database client using the factory
+            // Automatically handles the creation of database-specific implementations
+            // (e.g., Connection, Command, Transaction) for the configured database type
+            DatabaseClient client = new DatabaseClient(factory);
+
+            // Execute a query using the client
+            client.executeQuery("SELECT id, username, email FROM users");
+        }
     }
 }
