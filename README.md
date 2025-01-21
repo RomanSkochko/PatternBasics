@@ -4,7 +4,7 @@ A repository showcasing the skeleton implementations of design patterns. This pr
 1. [Factory Method pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/PatternBasics/factory_method/processor/PaymentProcessor.java)
 2. [Abstract Factory pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/PatternBasics/abstractfactory/Example.java)
 3. [Singleton pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/PatternBasics/singleton/CacheManager.java)
-4. [Builder pattern]
+4. [Builder pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/PatternBasics/builder/Example.java)
 5. [Prototype pattern]
 
 ## Structural Patterns
