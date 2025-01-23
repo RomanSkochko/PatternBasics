@@ -12,7 +12,7 @@ A repository showcasing the skeleton implementations of design patterns. This pr
 7. [Bridge pattern]
 8. [Composite pattern]
 9. [Decorator pattern](https://github.com/RomanSkochko/PatternBasics/tree/main/src/main/java/org/example/patternbasics/structural/decorator/decoratorservice)
-10. [Facade pattern]
+10. [Facade pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/patternbasics/structural/facade/facade/UserRegistrationFacade.java)
 11. [Flyweight pattern]
 12. [Proxy pattern]
 
