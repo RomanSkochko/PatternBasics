@@ -25,6 +25,6 @@ A repository showcasing the skeleton implementations of design patterns. This pr
 18. [Memento pattern]
 19. [Observer pattern]
 20. [State pattern]
-21. [Strategy pattern]
+21. [Strategy pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/patternbasics/behavioral/strategy/calculationstrategy/FareCalculationStrategy.java)
 22. [Template Method pattern]
 23. [Visitor pattern]
