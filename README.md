@@ -23,7 +23,7 @@ A repository showcasing the skeleton implementations of design patterns. This pr
 16. [Iterator pattern]
 17. [Mediator pattern]
 18. [Memento pattern]
-19. [Observer pattern]
+19. [Observer pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/patternbasics/behavioral/observer/notificationobserver/NotificationObserver.java)
 20. [State pattern]
 21. [Strategy pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/patternbasics/behavioral/strategy/calculationstrategy/FareCalculationStrategy.java)
 22. [Template Method pattern]
