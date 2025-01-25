@@ -1,4 +1,4 @@
-package org.example.patternbasics.behavioral.adapter.paymentadapter;
+package org.example.patternbasics.structural.adapter.paymentadapter;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

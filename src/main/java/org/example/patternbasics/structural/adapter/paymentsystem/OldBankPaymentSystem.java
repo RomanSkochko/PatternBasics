@@ -1,4 +1,4 @@
-package org.example.patternbasics.behavioral.adapter.paymentsystem;
+package org.example.patternbasics.structural.adapter.paymentsystem;
 
 import org.springframework.stereotype.Component;
 

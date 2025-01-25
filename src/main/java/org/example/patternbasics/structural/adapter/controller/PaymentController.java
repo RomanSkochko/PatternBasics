@@ -1,10 +1,10 @@
-package org.example.patternbasics.behavioral.adapter.controller;
+package org.example.patternbasics.structural.adapter.controller;
 
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import org.example.patternbasics.behavioral.adapter.paymentadapter.PaymentResult;
-import org.example.patternbasics.behavioral.adapter.service.PaymentService;
+import org.example.patternbasics.structural.adapter.paymentadapter.PaymentResult;
+import org.example.patternbasics.structural.adapter.service.PaymentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

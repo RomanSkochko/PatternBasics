@@ -1,4 +1,4 @@
-package org.example.patternbasics.behavioral.adapter.paymentsystem;
+package org.example.patternbasics.structural.adapter.paymentsystem;
 
 // Legacy Payment System Interface (Existing System)
 public interface LegacyPaymentSystem {

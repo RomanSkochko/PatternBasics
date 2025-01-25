@@ -1,6 +1,6 @@
-package org.example.patternbasics.behavioral.adapter.paymentsystem;
+package org.example.patternbasics.structural.adapter.paymentsystem;
 
-import org.example.patternbasics.behavioral.adapter.paymentadapter.PaymentResult;
+import org.example.patternbasics.structural.adapter.paymentadapter.PaymentResult;
 
 import java.math.BigDecimal;
 
