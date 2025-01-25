@@ -8,7 +8,7 @@ A repository showcasing the skeleton implementations of design patterns. This pr
 5. [Prototype pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/patternbasics/creational/prototype/Example.java)
 
 ## Structural Patterns
-6. [Adapter pattern]
+6. [Adapter pattern](https://github.com/RomanSkochko/PatternBasics/blob/main/src/main/java/org/example/patternbasics/structural/adapter/paymentadapter/ModernPaymentGateway.java)
 7. [Bridge pattern]
 8. [Composite pattern]
 9. [Decorator pattern](https://github.com/RomanSkochko/PatternBasics/tree/main/src/main/java/org/example/patternbasics/structural/decorator/decoratorservice)
