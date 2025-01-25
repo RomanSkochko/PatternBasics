@@ -3,7 +3,7 @@ package org.example.patternbasics.structural.adapter.service;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import org.example.patternbasics.structural.adapter.paymentsystem.ModernPaymentGateway;
+import org.example.patternbasics.structural.adapter.paymentadapter.ModernPaymentGateway;
 import org.example.patternbasics.structural.adapter.paymentadapter.PaymentResult;
 import org.springframework.stereotype.Service;
 

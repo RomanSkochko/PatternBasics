@@ -4,7 +4,6 @@ import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.example.patternbasics.structural.adapter.paymentsystem.LegacyPaymentSystem;
-import org.example.patternbasics.structural.adapter.paymentsystem.ModernPaymentGateway;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
